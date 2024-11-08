@@ -18,14 +18,6 @@ public class Contato {
 	//Metodo mostrarDados
 	public String mostrarDados() {
 		String linha = ("-".repeat(30) + "\n");
-		
-		/*Formatter fmt = new Formatter();
-		String mostrar = fmt.format("|%-8 | %-6s | %-10s | %-7|%n",
-				"CODIGO",
-				"NOME",
-				"TELEFONE",
-				"EMAIL").toString();
-		fmt.close();*/
 		String mostrar = linha +
 				"Codigo: " + this.codigo + "\nNome: " + this.nome +
 				"\nTelefone: " + this.telefone + "\nEmail: " + this.email + "\n";
